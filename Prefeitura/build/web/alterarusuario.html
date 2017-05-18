@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+            Nome:
+            <br>
+            <input type="text" required="required" pattern="[a-z]+$" maxlength="50" size="40">
+            <br>
+            email:
+            <br>
+            <input type="email" name="email" required="required" pattern= "[^@\s]+@[^@\s]+\.[^@\s]+"  maxlength="50">
+            <br>
+            Senha:
+            <br>
+            <input type="password" required="required" pattern="[a-z]+$" maxlength="16" size="20">
+            <br>
+            Nível:
+            <br>
+            <input type="radio" name="sexo" value="administrador">Administrador<br>
+            <input type="radio" name="sexo" value="usuário" checked>Usuário<br>
+            <br>
+            <input type="submit" value="Salvar">
+            <input type="submit" value="Cancelar">
+        </form>
+    </body>
+</html>
